@@ -1,0 +1,101 @@
+---
+title: "Ex1"
+author: "Kadima Gloire Kabeya"
+date: "1/14/2025"
+output:
+  html_document:
+    df_print: paged
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction to Git Version Control and GitHub
+
+## Instructions
+
+### 1. Setting Up Your Environment
+
+- Install Git on your local machine if you haven't already.
+- Create a GitHub account if you don't have one.
+
+### 2. Create a New Repository
+
+- On GitHub, create a new repository named "R-File-Modification."
+- Initialize the repository with a README file.
+
+### 3. Clone the Repository
+
+- Open your terminal or Git Bash.
+- Use the `git clone` command to clone the repository to your local machine.
+
+  ```bash
+  git clone https://github.com/your-username/R-File-Modification.git
+ 
+ ``` 
+
+### 4. Create an R File
+
+- Inside the cloned repository, create a new R script file named "analysis.R."
+
+### 5. Commit Changes
+
+- Use the following commands to add and commit the new R file.
+
+  ```bash
+  git add analysis.R
+  git commit -m "Initial commit: Added analysis.R"
+  ```
+### 6. Modify the R File
+
+- Open "analysis.R" and make any modifications you see fit (add comments, variables, functions, etc.).
+
+### 7. Commit Changes Again
+
+- Use the following commands to commit the modifications.
+  ```bash
+  git add analysis.R
+  git commit -m "Modified analysis.R"
+  ```
+### 8. Push Changes to GitHub
+
+- Push your changes to the GitHub repository.
+  
+  ```bash
+  git push origin main
+  ```
+### 9. Verify Changes on GitHub
+
+- Visit your GitHub repository online to confirm that the changes are reflected in the remote repository.
+
+### 10. Submission
+
+- Submit the URL of your GitHub repository, demonstrating the commits with the modifications to the "analysis.R" file.
+
+  https://github.com/gkwmu/R-File-Modification
+
+
+# Exploring Markdown Syntax and R Functions
+
+### 1. Table Creation Using Markdown
+
+Compose a Markdown table with two columns and two rows. Use any content you prefer for the cells. Provide the Markdown code for creating the table.
+
+ID  |  Name
+----- | ------
+25 | Kev Adams
+39 | John Landis
+
+### 2. Attaching a Hyperlink
+
+Create a Markdown hyperlink with the text "Visit our website" pointing to the URL "http://www.examplewebsite.com." Share the Markdown code for generating this hyperlink.
+
+[Visit our website](http://www.examplewebsite.com)
+
+### 3. Inserting an Image
+
+Include an image in your Markdown document. Use any image URL or path you choose, and provide the Markdown code for inserting the image. Additionally, include alternative text for accessibility.
+
+![Media illustration](https://drive.google.com/uc?export=download&id=1k0_siRvrBUSBhcTANdISW86iXR4hwGxZ)
